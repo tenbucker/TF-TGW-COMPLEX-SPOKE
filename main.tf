@@ -46,6 +46,8 @@ module "TGW" {
   subnet_ids         = module.vpc.private_subnets
   transit_gateway_id = var.transit_gateway_id
   vpc_id             = module.vpc.vpc_id
+  spokeRT = var.spokeRT
+  hubRT = var.hubRT
 }
 module "EC2" {
   AZcount = length(data.aws_availability_zones.available.names)

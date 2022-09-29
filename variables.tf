@@ -46,6 +46,16 @@ variable "transit_gateway_id" {
   default     = "tgw-046e6efa08346bcf0"
 }
 
+variable "spokeRT" {
+  description = "RT for TGW"
+  type = string
+}
+
+variable "hubRT" {
+  description = "RT for TGW"
+  type = string
+}
+
 variable "vpc_tags" {
   description = "Tags to apply to resources created by VPC module"
   type        = map(string)

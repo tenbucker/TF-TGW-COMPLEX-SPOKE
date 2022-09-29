@@ -11,4 +11,14 @@ variable "subnet_ids" {
   type = list(string)
 }
 
+variable "spokeRT" {
+  description = "RT for TGW"
+  type = string
+}
+
+variable "hubRT" {
+  description = "RT for TGW"
+  type = string
+}
+
 

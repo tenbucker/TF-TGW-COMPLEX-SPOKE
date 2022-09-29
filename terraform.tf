@@ -3,7 +3,7 @@ terraform {
   cloud {
     organization = "tenbucker"
     workspaces {
-      name = "Terraforml-TGW-attach"
+      name = "Terraform-tgw-spoke"
     }
   }
   
