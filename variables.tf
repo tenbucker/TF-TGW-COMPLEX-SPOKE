@@ -43,17 +43,19 @@ variable "vpc_enable_nat_gateway" {
 
 variable "transit_gateway_id" {
   description = "TGW ID"
-  default     = "tgw-046e6efa08346bcf0"
+  default     = "tgw-05f75c470b61a090a"
 }
 
 variable "spokeRT" {
   description = "RT for TGW"
   type = string
+  default = "tgw-rtb-00739072ccc5dba57"
 }
 
 variable "hubRT" {
   description = "RT for TGW"
   type = string
+  default = "tgw-rtb-0fb8404931cf61260"
 }
 
 variable "vpc_tags" {
