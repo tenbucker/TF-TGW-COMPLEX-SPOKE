@@ -49,13 +49,13 @@ variable "transit_gateway_id" {
 variable "spokeRT" {
   description = "RT for TGW"
   type = string
-  default = "tgw-rtb-00739072ccc5dba57"
+  default = "tgw-rtb-049cfff0cacfb43d0"
 }
 
 variable "hubRT" {
   description = "RT for TGW"
   type = string
-  default = "tgw-rtb-0fb8404931cf61260"
+  default = "tgw-rtb-08d18a349417ceaf3"
 }
 
 variable "vpc_tags" {
